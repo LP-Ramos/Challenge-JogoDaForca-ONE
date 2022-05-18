@@ -1,0 +1,55 @@
+header{
+    width: 100%;
+    background-color: var(--transparent-color-1);
+}
+
+.box{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 60px;
+    padding: 10px 0px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.titulo{
+    width: 30%;
+    color: var(--color-white);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.titulo:hover{
+    color: var(--aux-color-2);
+}
+
+.headerLink{
+    width: 20%;
+    color: var(--color-white);
+    font-size: 0.8em;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.headerLink:hover{
+    color: var(--aux-color-2);
+}
+
+.divisoriaVertical{
+    border: none;
+    width: 2px;
+    height: 60px;
+    background-color: var(--aux-color-1);
+}
+
+.divisoriaHorizontal{
+    border: none;
+    width: 100%;
+    height: 3px;
+    background: var(--transparent-color-3);
+    margin : 0 auto;
+}
