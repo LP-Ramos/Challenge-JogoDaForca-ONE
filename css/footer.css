@@ -44,16 +44,34 @@ footer a:hover{
     text-align: middle;
 }
 
-.logos__box a{
+.alura__logo, .oracle__logo{
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
     color: var(--aux-color-1);
+    border-radius: 10px;
+    padding: 5px;
 }
 
-.logos__box a:hover{
-    color: #c74634; /*0a3871*/
+.alura__logo:hover{
+    color: #0a3871;
+    font-weight: bold;
+    background-color: var(--color-white);
+}
+
+.oracle__logo:hover{
+    color: #c74634;
+    font-weight: bold;
+    background-color: var(--color-white);
+}
+
+.alura__logo:hover img{
+    content: url('./../img/logo-alura-2.png');
+}
+
+.oracle__logo:hover img{
+    content: url('./../img/logo-oracle-2.png');
 }
 
 .logo{
