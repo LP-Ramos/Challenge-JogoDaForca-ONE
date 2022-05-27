@@ -11,6 +11,18 @@
     transition: 0.3s;
 }
 
+.aviso.laranja{
+    border: var(--color-1) solid 5px;
+}
+
+.aviso.vermelho{
+    border: var(--color-2) solid 5px;
+}
+
+.aviso.verde{
+    border: var(--aux-color-3) solid 5px;
+}
+
 .aviso p{
     margin-bottom: 20px;
     font-size: 1.5em;

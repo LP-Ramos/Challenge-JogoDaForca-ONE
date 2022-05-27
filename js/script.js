@@ -1,13 +1,28 @@
+// Botões iniciais
 const btnJogar = document.getElementById('btnJogar');
 const btnAddPalavra = document.getElementById('btnAddPalavra');
 
-let palavras = ['BANANA', 'CARACOL', 'FORNO', 'PEIXE', 'PESO', 'TEMPO', 'TRABALHO', 'VACA', 'XADREZ', 'ZUMBI', 'DEMOCRACIA', 'RAIZ', 'FLOR'];
-// let palavras = ['BANANA'];
+// Array com as palavras que serão sorteadas
+let palavras = ['BANANA', 'CARACOL', 'FORNO', 'PEIXE', 'PESO', 'TEMPO',
+    'TRABALHO', 'VACA', 'XADREZ', 'ZUMBI', 'DEMOCRACIA', 'RAIZ', 'FLOR',
+    'TRABALHADOR', 'VALOR', 'CERVEJA', 'ZEBRA', 'CACHORRO', 'CASA',
+    'CONSTRUCAO', 'CRIANCA', 'DINHEIRO', 'ESCOLA', 'FACA', 'GATO',
+    'HORA', 'IMAGEM', 'JOGO', 'LAPIS', 'MESA', 'MORTE', 'MULHER',
+    'PAPEL', 'PASTEL', 'PATINHO', 'PESCA', 'PICADA', 'PINTURA',
+    'PISTOLA', 'PNEU', 'PRAIA', 'RUIM', 'SAPATO', 'SEMAFORO', 'SOL',
+    'SORVETE', 'AZUL', 'BRANCO', 'CINZA', 'VERDE', 'VERMELHO'
+];
 
+// Definição das variáveis globais
 let acertos = 0;
 let erros = 0;
 let digitadas = [];
 let verifica = true;
 
+// Eventos de click dos botões
+
+// Botão 'começar a jogar' | Inicia o jogo com a função 'jogar'
 btnJogar.addEventListener('click', jogar);
+
+// Botão 'adicionar nova palavra' | Abre menu de adicionar palavra com a funcão 'addPalavra'
 btnAddPalavra.addEventListener('click', addPalavra);
